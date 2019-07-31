@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkslategray"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:layout_gravity="center"
+           android:id="@+id/rssimg"
+           android:layout_width="110dp"
+           android:layout_height="70dp" />
+
+       <Spinner
+           android:id="@+id/spinner"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"></Spinner>
+
+   </LinearLayout>
+
+    <ListView
+
+        android:id="@+id/rssListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkslategray"></ListView>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Rss_Okuyucu</string>
+    <string name="rssler">asdasdasd</string>
+
+    <string-array name="rssler">
+    <item>IPHONE</item>
+    <item>MYNET SONDAKİKA</item>
+    <item>MYNET TÜM HABERLER</item>
+    <item>MYNET TEKNOLOJİ</item>
+    <item>BBC HABERLER</item>
+    <item>CNN KÜLTÜR SANAT</item>
+    <item>GLOBAL NEWS</item>
+
+</string-array>
+
+    <string-array name="rss_url">
+        <item>http://www.iphoneturkey.com/feed</item>
+        <item>https://www.mynet.com/haber/rss/sondakika</item>
+        <item>https://www.mynet.com/yerel-haberler/rss/kategori/ana</item>
+        <item>https://www.mynet.com/haber/rss/kategori/teknoloji/</item>
+        <item>http://feeds.bbci.co.uk/turkce/rss.xml</item>
+        <item>https://www.cnnturk.com/feed/rss/kultur-sanat/news</item>
+        <item>https://globalnews.ca/feed/</item>
+
+    </string-array>
+
+</resources>
